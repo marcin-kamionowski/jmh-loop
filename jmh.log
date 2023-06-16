@@ -1,0 +1,339 @@
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testArrayLoop
+
+# Run progress: 0.00% complete, ETA 00:18:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+# Run progress: 5.56% complete, ETA 00:17:05
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+
+
+Result "org.sample.MyBenchmark.testArrayLoop":
+  ≈ 10⁻⁷ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testArrayLoopExc
+
+# Run progress: 11.11% complete, ETA 00:16:06
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+
+# Run progress: 16.67% complete, ETA 00:15:05
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+
+
+Result "org.sample.MyBenchmark.testArrayLoopExc":
+  ≈ 10⁻⁷ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testCountingDown
+
+# Run progress: 22.22% complete, ETA 00:14:04
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+# Run progress: 27.78% complete, ETA 00:13:04
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+
+Result "org.sample.MyBenchmark.testCountingDown":
+  ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testLoopUnrolling
+
+# Run progress: 33.33% complete, ETA 00:12:03
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   4: ≈ 10⁻⁹ s/op
+Iteration   5: ≈ 10⁻⁹ s/op
+
+# Run progress: 38.89% complete, ETA 00:11:03
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   4: ≈ 10⁻⁹ s/op
+Iteration   5: ≈ 10⁻⁹ s/op
+
+
+Result "org.sample.MyBenchmark.testLoopUnrolling":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testLoopUnrollingBaseline
+
+# Run progress: 44.44% complete, ETA 00:10:03
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   4: ≈ 10⁻⁹ s/op
+Iteration   5: ≈ 10⁻⁹ s/op
+
+# Run progress: 50.00% complete, ETA 00:09:02
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   1: ≈ 10⁻⁹ s/op
+Iteration   2: ≈ 10⁻⁹ s/op
+Iteration   3: ≈ 10⁻⁹ s/op
+Iteration   4: ≈ 10⁻⁹ s/op
+Iteration   5: ≈ 10⁻⁹ s/op
+
+
+Result "org.sample.MyBenchmark.testLoopUnrollingBaseline":
+  ≈ 10⁻⁹ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testLoopUnrollingSumList
+
+# Run progress: 55.56% complete, ETA 00:08:02
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+
+# Run progress: 61.11% complete, ETA 00:07:02
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   1: ≈ 10⁻⁷ s/op
+Iteration   2: ≈ 10⁻⁷ s/op
+Iteration   3: ≈ 10⁻⁷ s/op
+Iteration   4: ≈ 10⁻⁷ s/op
+Iteration   5: ≈ 10⁻⁷ s/op
+
+
+Result "org.sample.MyBenchmark.testLoopUnrollingSumList":
+  ≈ 10⁻⁷ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testLoopUnrollingSumListBaseline
+
+# Run progress: 66.67% complete, ETA 00:06:01
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+# Run progress: 72.22% complete, ETA 00:05:01
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+
+Result "org.sample.MyBenchmark.testLoopUnrollingSumListBaseline":
+  ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testStopConditionWithLocalVar
+
+# Run progress: 77.78% complete, ETA 00:04:01
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+# Run progress: 83.33% complete, ETA 00:03:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+
+Result "org.sample.MyBenchmark.testStopConditionWithLocalVar":
+  ≈ 10⁻⁶ s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.7, OpenJDK 64-Bit Server VM, 17.0.7+7-Ubuntu-0ubuntu120.04
+# VM invoker: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 1 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MyBenchmark.testStopConditionWithMethodCall
+
+# Run progress: 88.89% complete, ETA 00:02:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+# Run progress: 94.44% complete, ETA 00:01:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   1: ≈ 10⁻⁶ s/op
+Iteration   2: ≈ 10⁻⁶ s/op
+Iteration   3: ≈ 10⁻⁶ s/op
+Iteration   4: ≈ 10⁻⁶ s/op
+Iteration   5: ≈ 10⁻⁶ s/op
+
+
+Result "org.sample.MyBenchmark.testStopConditionWithMethodCall":
+  ≈ 10⁻⁶ s/op
+
+
+# Run complete. Total time: 00:18:05
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                     Mode  Cnt   Score    Error  Units
+MyBenchmark.testArrayLoop                     avgt    5  ≈ 10⁻⁷            s/op
+MyBenchmark.testArrayLoopExc                  avgt    5  ≈ 10⁻⁷            s/op
+MyBenchmark.testCountingDown                  avgt    5  ≈ 10⁻⁶            s/op
+MyBenchmark.testLoopUnrolling                 avgt    5  ≈ 10⁻⁹            s/op
+MyBenchmark.testLoopUnrollingBaseline         avgt    5  ≈ 10⁻⁹            s/op
+MyBenchmark.testLoopUnrollingSumList          avgt    5  ≈ 10⁻⁷            s/op
+MyBenchmark.testLoopUnrollingSumListBaseline  avgt    5  ≈ 10⁻⁶            s/op
+MyBenchmark.testStopConditionWithLocalVar     avgt    5  ≈ 10⁻⁶            s/op
+MyBenchmark.testStopConditionWithMethodCall   avgt    5  ≈ 10⁻⁶            s/op
